@@ -4,13 +4,13 @@
 body {
     font-family: IBM Plex Sans;
     color: #1C1B1F;
-    padding: var(--spacing); /* Use the spacing. */
-}
-
-main {
+    /* padding: var(--spacing); Use the spacing. */
     display: flex; 
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 :root {
