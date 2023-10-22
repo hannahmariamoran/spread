@@ -1,35 +1,76 @@
-#title {
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400;1,600&family=IBM+Plex+Sans&display=swap');
+
+/* primary text application for all content */
+body {
+    font-family: IBM Plex Sans;
     color: #1C1B1F;
-    font-family: IBM Plex Mono;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 58.5px;
+    padding: var(--spacing); /* Use the spacing. */
 }
 
 main {
-	display: flex; 
-	flex-wrap: wrap;
-	gap: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
 }
-
-:root {
-	--font-size: 18px;
-	--spacing: 24px;
-
-@media screen {min-width: 480px;
-} 
 
 :root {
     --font-size: 18px;
     --spacing: 24px;
-
 }
 
-body {
-	font-family: IBM Plex Sans;
-	font-size: var(--font-size); /* Use the size. */
-	padding: var(--spacing); /* Use the spacing. */
-    color: #1C1B1F
+/* individual text styles */
+h1{
+    font-family: IBM Plex Mono;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 60px;
+}
+h2{
+    font-family: IBM Plex Mono;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+h3{
+    font-family: IBM Plex Mono;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #8F00FF;
+    text-align: justify;
+}
+h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+blockquote{
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* glyph emphasis */
+b{
+    color: #8F00FF;
+    font-weight: 600;
+}
+/* italic emphasis for test expression */
+em{
+    color: #1C1B1F;
+}
+/* change of color for credit line */
+.credit-line{
+    color: #6E6D72;
 }
 
+section { background-color: white; }
+
+@media (min-width: 480px) {
+	section { background-color: coral; }
+}
