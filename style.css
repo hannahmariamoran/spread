@@ -24,12 +24,14 @@ h1{
     font-size: 52px;
     font-weight: 400;
     line-height: 60px;
+    margin-bottom: 188px;
 }
 h2{
     font-family: IBM Plex Mono;
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
+    margin-bottom: 48px;
 }
 h3{
     font-family: IBM Plex Mono;
@@ -37,18 +39,23 @@ h3{
     font-weight: 400;
     line-height: 38px;
     color: #8F00FF;
-    text-align: justify;
+    text-align: right;
+
 }
 h4{
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
+    margin-top: 92px;
+    margin-bottom: 104px;
 }
 blockquote{
     font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 p{
     font-size: 18px;
@@ -68,8 +75,19 @@ em{
 .credit-line{
     color: #6E6D72;
 }
+/* class for right alligned text */
+.right-allign{
+    text-align: right;
+}
 
-section { background-color: white; }
+section { 
+    background-color: white;
+    margin-top: 180px;
+}
+
+article {
+    margin-bottom: 164px;
+}
 
 @media (min-width: 480px) {
 	section { background-color: coral; }
