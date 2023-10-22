@@ -1,4 +1,35 @@
-body {
-    color: blue;
-    font-weight: bold;
+#title {
+    color: #1C1B1F;
+    font-family: IBM Plex Mono;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px;
 }
+
+main {
+	display: flex; 
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+:root {
+	--font-size: 18px;
+	--spacing: 24px;
+
+@media screen {min-width: 480px;
+} 
+
+:root {
+    --font-size: 18px;
+    --spacing: 24px;
+
+}
+
+body {
+	font-family: IBM Plex Sans;
+	font-size: var(--font-size); /* Use the size. */
+	padding: var(--spacing); /* Use the spacing. */
+    color: #1C1B1F
+}
+
