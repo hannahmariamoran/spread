@@ -8,9 +8,6 @@ body {
     display: flex; 
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
 }
 
 :root {
@@ -24,14 +21,12 @@ h1{
     font-size: 52px;
     font-weight: 400;
     line-height: 60px;
-    margin-bottom: 188px;
 }
 h2{
     font-family: IBM Plex Mono;
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
-    margin-bottom: 48px;
 }
 h3{
     font-family: IBM Plex Mono;
@@ -46,16 +41,12 @@ h4{
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
-    margin-top: 92px;
-    margin-bottom: 104px;
 }
 blockquote{
     font-family: IBM Plex Mono;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    margin-top: 64px;
-    margin-bottom: 64px;
     display: flex;
 }
 p{
@@ -83,11 +74,6 @@ em{
 
 section { 
     background-color: white;
-    margin-top: 180px;
-}
-
-article {
-    margin-bottom: 164px;
 }
 
 @media (min-width: 480px) {
