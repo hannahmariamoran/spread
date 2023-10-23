@@ -3,34 +3,38 @@
 /* primary text application for all content */
 :root {
     --h1: 52px;
-    --h1-line-height:60px
+    --h1-line-height:60px;
 }
 
 :root {
     --h2: 40px;
-    --h2-line-height:48px
+    --h2-line-height:48px;
 }
 
 :root {
     --h3: 34px;
-    --h3-line-height:38px
+    --h3-line-height:38px;
 }
 
 :root {
     --h4: 24px;
-    --h4-line-height:28px
+    --h4-line-height:28px;
 }
 
 :root {
     --blockquote: 18px;
-    --blockquote-line-height:24px
+    --blockquote-line-height:24px;
 }
 
 :root {
     --p: 18px;
-    --p-line-height:24px
+    --p-line-height:24px;
 }
 
+:root{
+    --margin:16px;
+
+}
 
 section { 
     background-color: white;
@@ -40,27 +44,31 @@ section {
 	section { background-color: coral;}
     :root {
 		--h1: 180px;
-        --h1-line-height: 180px
+        --h1-line-height: 180px;
 	}
     :root {
 		--h2: 64px;
-        --h2-line-height: 70px
+        --h2-line-height: 70px;
 	}
     :root {
 		--h3: 48px;
-        --h3-line-height: 56px
+        --h3-line-height: 56px;
 	}
     :root {
 		--h4: 32px;
-        --h4-line-height: 40px
+        --h4-line-height: 40px;
 	}
     :root {
 		--blockquote: 18px;
-        --blockquote-line-height: 24px
+        --blockquote-line-height: 24px;
 	}
     :root {
         --p: 20px;
-        --p-line-height:26px
+        --p-line-height:26px;
+    }
+    :root{
+        --margin:100px;
+        
     }
 }
 
@@ -70,6 +78,7 @@ body {
     display: flex; 
     flex-wrap: wrap;
     gap: 10px;
+
 }
 
 h1{
@@ -77,6 +86,7 @@ h1{
     font-size: var(--h1);
     font-weight: 400;
     line-height: var(--h1-line-height);
+    
 }
 
 h2{
@@ -84,6 +94,7 @@ h2{
     font-size: var(--h2);
     font-weight: 400;
     line-height: var(--h2-line-height);
+    
 }
 
 
@@ -94,12 +105,14 @@ h3{
     line-height: var(--h3-line-height);
     color: #8F00FF;
     text-align: right;
+   
 }
 
 h4{
     font-size: var(--h4);
     font-weight: 400;
     line-height: var(--h4-line-height);
+   
 }
 
 blockquote{
@@ -114,6 +127,7 @@ p{
     font-size: var(--p);
     font-weight: 400;
     line-height: var(--p-line-height);
+   
 } 
 
 b{
