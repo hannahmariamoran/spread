@@ -2,11 +2,35 @@
 
 /* primary text application for all content */
 :root {
-    --first-font-size: 52px;
-    --first-line-height:60px
-  
-
+    --h1: 52px;
+    --h1-line-height:60px
 }
+
+:root {
+    --h2: 40px;
+    --h2-line-height:48px
+}
+
+:root {
+    --h3: 34px;
+    --h3-line-height:38px
+}
+
+:root {
+    --h4: 24px;
+    --h4-line-height:28px
+}
+
+:root {
+    --blockquote: 18px;
+    --blockquote-line-height:24px
+}
+
+:root {
+    --p: 18px;
+    --p-line-height:24px
+}
+
 
 section { 
     background-color: white;
@@ -15,9 +39,29 @@ section {
 @media (min-width: 480px) {
 	section { background-color: coral;}
     :root {
-		--first-font-size: 180px;
-        --first-line-height: 190px
+		--h1: 180px;
+        --h1-line-height: 180px
 	}
+    :root {
+		--h2: 64px;
+        --h2-line-height: 70px
+	}
+    :root {
+		--h3: 48px;
+        --h3-line-height: 56px
+	}
+    :root {
+		--h4: 32px;
+        --h4-line-height: 40px
+	}
+    :root {
+		--blockquote: 18px;
+        --blockquote-line-height: 24px
+	}
+    :root {
+        --p: 20px;
+        --p-line-height:26px
+    }
 }
 
 body {
@@ -27,77 +71,65 @@ body {
     display: flex; 
     flex-wrap: wrap;
     gap: 10px;
-	font-size: var(--font-size); /* Use the size. */
-	padding: var(--spacing); /* Use the spacing. */
 }
 
 h1{
     font-family: IBM Plex Mono;
-    font-size: var(--first-font-size);
+    font-size: var(--h1);
     font-weight: 400;
-    line-height: var(--first-line-height);
+    line-height: var(--h1-line-height);
 }
 
-    h2{
-        font-family: IBM Plex Mono;
-        font-size: var(--second-font-size);
-        font-weight: 400;
-        line-height: 48px;
-}
-
-
-/* individual text styles */
-/* h1{
-    font-family: IBM Plex Mono;
-    font-size: var(--first-font-size);
-    font-weight: 400;
-    line-height: 60px;
-}
 h2{
     font-family: IBM Plex Mono;
-    font-size: var(--second-font-size);
+    font-size: var(--h2);
     font-weight: 400;
-    line-height: 48px;
+    line-height: var(--h2-line-height);
 }
+
+
 h3{
     font-family: IBM Plex Mono;
-    font-size: 34px;
+    font-size: var(--h3);
     font-weight: 400;
-    line-height: 38px;
+    line-height: var(--h3-line-height);
     color: #8F00FF;
     text-align: right;
 }
+
 h4{
-    font-size: 24px;
+    font-size: var(--h4);
     font-weight: 400;
-    line-height: 28px;
+    line-height: var(--h4-line-height);
 }
+
 blockquote{
     font-family: IBM Plex Mono;
-    font-size: 18px;
+    font-size: var(--blockquote);
     font-weight: 400;
-    line-height: 24px;
+    line-height: var(--blockquote-line-height);
     display: flex;
 }
+
 p{
-    font-size: 18px;
+    font-size: var(--p);
     font-weight: 400;
-    line-height: 24px;
-} */
-/* glyph emphasis */
-/* b{
+    line-height: var(--p-line-height);
+} 
+
+b{
     color: #8F00FF;
     font-weight: 600;
-} */
-/* italic emphasis for test expression */
-/* em{
+}
+
+em{
     color: #1C1B1F;
-} */
-/* change of color for credit line */
-/* .credit-line{
+}
+
+.credit-line{
     color: #6E6D72;
-} */
-/* class for right alligned text */
-/* .right-allign{
+} 
+
+right-allign{
     text-align: right;
-} */
+} 
