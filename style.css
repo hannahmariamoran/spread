@@ -2,8 +2,10 @@
 
 /* primary text application for all content */
 :root {
-    --font-size: 18px;
-    --spacing: 24px;
+    --first-font-size: 52px;
+    --first-line-height:60px
+  
+
 }
 
 section { 
@@ -13,8 +15,8 @@ section {
 @media (min-width: 480px) {
 	section { background-color: coral;}
     :root {
-		--font-size: 20px; /* Bump these up. */
-		--spacing: 28px;
+		--first-font-size: 180px;
+        --first-line-height: 190px
 	}
 }
 
@@ -29,16 +31,31 @@ body {
 	padding: var(--spacing); /* Use the spacing. */
 }
 
+h1{
+    font-family: IBM Plex Mono;
+    font-size: var(--first-font-size);
+    font-weight: 400;
+    line-height: var(--first-line-height);
+}
+
+    h2{
+        font-family: IBM Plex Mono;
+        font-size: var(--second-font-size);
+        font-weight: 400;
+        line-height: 48px;
+}
+
+
 /* individual text styles */
 /* h1{
     font-family: IBM Plex Mono;
-    font-size: 52px;
+    font-size: var(--first-font-size);
     font-weight: 400;
     line-height: 60px;
 }
 h2{
     font-family: IBM Plex Mono;
-    font-size: 40px;
+    font-size: var(--second-font-size);
     font-weight: 400;
     line-height: 48px;
 }
