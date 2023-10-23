@@ -31,9 +31,12 @@
     --p-line-height:24px;
 }
 
-:root{
-    --margin:16px;
-
+body {
+    font-family: IBM Plex Sans;
+    color: #1C1B1F;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 section { 
@@ -42,6 +45,7 @@ section {
 
 @media (min-width: 480px) {
 	section { background-color: coral;}
+    /* body {margin: 40px;} */
     :root {
 		--h1: 180px;
         --h1-line-height: 180px;
@@ -66,19 +70,6 @@ section {
         --p: 20px;
         --p-line-height:26px;
     }
-    :root{
-        --margin:100px;
-        
-    }
-}
-
-body {
-    font-family: IBM Plex Sans;
-    color: #1C1B1F;
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 10px;
-
 }
 
 h1{
@@ -143,6 +134,6 @@ em{
     color: #6E6D72;
 } 
 
-right-allign{
+.right-allign{
     text-align: right;
 } 
