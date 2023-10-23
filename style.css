@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400;1,600&family=IBM+Plex+Sans&display=swap');
 
+
 /* text variables for all content */
 :root {
     --h1: 52px;
@@ -80,15 +81,10 @@ body {
     gap: 10px;
 }
 
-section { 
-    background-color: white;
-}
-
 /* desktop media query */
 @media (min-width: 480px) {
     a {padding: 12px;}
     a:hover {font-weight: 600;}
-	section { background-color: coral;}
     :root {
 		--h1: 180px;
         --h1-line-height: 180px;
