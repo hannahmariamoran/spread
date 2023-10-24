@@ -193,6 +193,7 @@ blockquote{
     line-height: var(--blockquote-line-height);
     display: flex;
     justify-content: center;
+    gap: 6px;
     margin-top: 64px;
     margin-bottom: 64px;
 }
