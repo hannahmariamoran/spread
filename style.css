@@ -66,6 +66,14 @@ a:visited{
     max-width:100%;
 }
 
+.expression-allign{
+    text-align: right;
+}
+
+.quote-width{
+    max-width: 80%;
+}
+
 /* text variables for all content */
 :root {
     --h1: 52px;
@@ -107,6 +115,8 @@ a:visited{
     .heading-width{max-width:46%;}
     .intro-text{margin-bottom: 120px;max-width: 54%;}
     .content-width{max-width:46%;}
+    .expression-allign{text-align: left;}
+    .quote-width{max-width: 42%;}
 
     
     :root {
@@ -167,7 +177,6 @@ h3{
     font-weight: 400;
     line-height: var(--h3-line-height);
     color: #8F00FF;
-    text-align: right;
 }
 h4{
     font-size: var(--h4);
