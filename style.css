@@ -40,6 +40,15 @@ li{
     float: left;
     padding-left: 8px;
 }
+footer{
+    font-family: IBM Plex Mono;
+    font-size: var(--footer);
+    line-height: var(--footer-line-height);
+    font-weight: 400;
+    color: #8F00FF;
+    display: flex;
+    justify-content: end;
+}
 a{
     text-decoration: none;
 } 
@@ -104,6 +113,10 @@ article{
     --nav: 16px;
     --nav-line-height:20px;
 }
+:root {
+    --footer: 16px;
+    --footer:20px;
+}
 
 /* desktop media query */
 @media (min-width: 480px) {
@@ -152,6 +165,10 @@ article{
     .title-position{
         margin-top: 105px;
         margin-bottom: 80px;
+    }
+    :root {
+        --footer: 20px;
+        --footer:24px;
     }
 
 
