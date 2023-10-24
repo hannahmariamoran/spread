@@ -2,54 +2,22 @@
 
 
 
-/* layout styling */
+/* body styling */
 body {
     font-family: IBM Plex Sans;
     color: #1C1B1F;
     display: flex; 
     flex-wrap: wrap;
-    gap: 10px;
-    margin:16px;
 }
 
-
-/* text variables for all content */
-
-:root {
-    --h1: 52px;
-    --h1-line-height:60px;
+article{
+    margin-bottom: 180px;
 }
 
-:root {
-    --h2: 40px;
-    --h2-line-height:48px;
+section{
+    margin-top: 180px;
 }
-
-:root {
-    --h3: 34px;
-    --h3-line-height:38px;
-}
-
-:root {
-    --h4: 24px;
-    --h4-line-height:28px;
-}
-
-:root {
-    --blockquote: 18px;
-    --blockquote-line-height:24px;
-}
-
-:root {
-    --p: 18px;
-    --p-line-height:24px;
-}
-
-:root {
-    --nav: 16px;
-    --nav-line-height:20px;
-}
-
+/* nav styling */
 nav{
     font-family: IBM Plex Mono;
     font-size: var(--nav);
@@ -62,38 +30,65 @@ nav{
     top: 0;
     position: fixed;
 }
-
-/* nav styling */
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     justify-content: end;
 }
-
 li{
     float: left;
+    padding: 8px;
 }
-
 a{
     text-decoration: none;
-    padding: 8px;
     display: block;
 }
-
 a:visited{
     color: #8F00FF;
 }
 
+.intro-margin-bottom{
+    margin-bottom: 104px;
+}
+
+/* text variables for all content */
+:root {
+    --h1: 52px;
+    --h1-line-height:60px;
+}
+:root {
+    --h2: 40px;
+    --h2-line-height:48px;
+}
+:root {
+    --h3: 34px;
+    --h3-line-height:38px;
+}
+:root {
+    --h4: 24px;
+    --h4-line-height:28px;
+}
+:root {
+    --blockquote: 18px;
+    --blockquote-line-height:24px;
+}
+:root {
+    --p: 18px;
+    --p-line-height:24px;
+}
+:root {
+    --nav: 16px;
+    --nav-line-height:20px;
+}
 
 /* desktop media query */
 @media (min-width: 480px) {
-    
-    body{
-        margin:40px;
-    }
-    a {padding: 12px;}
+    article{margin-bottom: 196px;}
+    section{margin-top: 196px;}
+    li {padding: 12px;}
     a:hover {font-weight: 600;} 
+    .intro-margin-bottom{margin-bottom: 120px;}
     :root {
 		--h1: 180px;
         --h1-line-height: 180px;
@@ -136,6 +131,7 @@ h2{
     font-size: var(--h2);
     font-weight: 400;
     line-height: var(--h2-line-height);
+    margin-bottom: 48px;
 }
 h3{
     font-family: IBM Plex Mono;
@@ -149,6 +145,7 @@ h4{
     font-size: var(--h4);
     font-weight: 400;
     line-height: var(--h4-line-height);
+
 }
 blockquote{
     font-family: IBM Plex Mono;
@@ -156,6 +153,9 @@ blockquote{
     font-weight: 400;
     line-height: var(--blockquote-line-height);
     display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 p{
     font-size: var(--p);
