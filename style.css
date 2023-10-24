@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400;1,600&family=IBM+Plex+Sans&display=swap');
 
 
+
+/* layout styling */
+body {
+    font-family: IBM Plex Sans;
+    color: #1C1B1F;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
+    margin:16px;
+}
+
+
 /* text variables for all content */
+
 :root {
     --h1: 52px;
     --h1-line-height:60px;
@@ -72,19 +85,15 @@ a:visited{
     color: #8F00FF;
 }
 
-/* layout styling */
-body {
-    font-family: IBM Plex Sans;
-    color: #1C1B1F;
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 10px;
-}
 
 /* desktop media query */
 @media (min-width: 480px) {
+    
+    body{
+        margin:40px;
+    }
     a {padding: 12px;}
-    a:hover {font-weight: 600;}
+    a:hover {font-weight: 600;} 
     :root {
 		--h1: 180px;
         --h1-line-height: 180px;
