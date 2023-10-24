@@ -8,6 +8,7 @@ body {
     color: #1C1B1F;
     display: flex; 
     flex-wrap: wrap;
+    margin: 16px;
 }
 
 section{
@@ -108,6 +109,7 @@ article{
 
 /* desktop media query */
 @media (min-width: 480px) {
+    body {margin: 40px;}
     section{margin-bottom: 196px;}
     header{ margin-bottom:48px;}
     li {padding: 12px;}
