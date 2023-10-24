@@ -28,12 +28,16 @@ nav{
     color: #8F00FF;
     display: flex;
     position: fixed;
-} 
+}
+
+.article-link{
+    float: left;
+}
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    justify-content: end;
+    float: right;
 }
 li{
     float: left;
