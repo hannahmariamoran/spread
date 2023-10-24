@@ -114,10 +114,10 @@ article{
     a:hover {font-weight: 600;} 
     .heading-width{max-width:46%;}
     .intro-text{margin-bottom: 180px;max-width: 54%; margin-left: 408px;}
-    .content-width{max-width:46%;}
+    .content-width{max-width: 46%; margin-left: 408px;}
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
-    .quote-width{max-width: 42%;}
+    .quote-width{max-width: 42%; margin-left: 568px;}
 
     
     :root {
