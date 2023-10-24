@@ -27,11 +27,8 @@ nav{
     font-weight: 400;
     color: #8F00FF;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    top: 0;
     position: fixed;
-}
+} 
 ul{
     list-style-type: none;
     margin: 0;
@@ -40,15 +37,17 @@ ul{
 }
 li{
     float: left;
-    padding: 8px;
+    padding-left: 8px;
+    display: inline;
 }
 a{
     text-decoration: none;
     display: block;
-}
+} 
 a:visited{
     color: #8F00FF;
 }
+
 .title-position{
     margin-top: 212px;
     margin-bottom:188px;
@@ -112,11 +111,11 @@ article{
     body {margin: 40px;}
     section{margin-bottom: 196px;}
     header{ margin-bottom:48px;}
-    li {padding: 12px;}
+    li {padding-left: 12px;}
     a:hover {font-weight: 600;} 
     .heading-width{max-width:46%;}
     .intro-text{margin-bottom: 180px;max-width: 54%; margin-left: 408px;}
-    .content-width{max-width: 46%; margin-left: 408px;}
+    .content-width{max-width: 50%; margin-left: 408px;}
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
     .quote-width{max-width: 42%; margin-left: 568px;}
