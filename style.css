@@ -49,6 +49,7 @@ footer{
     font-weight: 400;
     color: #8F00FF;
     display: flex;
+    justify-content: end;
     top: 92%;
     position: fixed;
     width: 100%;
