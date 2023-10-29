@@ -17,10 +17,8 @@ section{
 header{ 
     margin-bottom:100px;
     width: 100%;
-    
- 
-
 }
+
 /* nav styling */
 nav{
     font-family: IBM Plex Mono;
@@ -28,12 +26,13 @@ nav{
     line-height: var(--nav-line-height);
     font-weight: 400;
     color: #8F00FF;
-    position: fixed;
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 0;
+    padding: 0;
     justify-content: space-between;
-  
+    /* position: fixed; */
 }
 ul{
     list-style-type: none;
@@ -43,7 +42,7 @@ ul{
 }
 li{
     float: left;
-    /*padding-left: 8px;*/
+    padding-left: 8px;
 } 
 footer{
     font-family: IBM Plex Mono;
@@ -54,7 +53,7 @@ footer{
     display: flex;
     justify-content: end;
     top: 92%;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 a{
