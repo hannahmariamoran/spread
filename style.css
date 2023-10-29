@@ -86,9 +86,9 @@ article{
     text-align: right;
 }
 
-.quote-width{
+/* .quote-width{
     max-width: 80%;
-}
+} */
 
 /* text variables for all content */
 :root {
@@ -137,7 +137,7 @@ article{
     .content-width{max-width: 50%;}
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
-    .quote-width{max-width: 42%;}
+    /* .quote-width{max-width: 42%;} */
 
     
     :root {
