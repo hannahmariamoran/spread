@@ -16,6 +16,9 @@ section{
 
 header{ 
     margin-bottom:100px;
+    width: 100%;
+    
+ 
 
 }
 /* nav styling */
@@ -131,11 +134,11 @@ article{
     /*li {padding-left: 12px;}*/
     a:hover {font-weight: 600;} 
     .heading-width{max-width:46%;}
-    .intro-text{margin-bottom: 180px;max-width: 54%; margin-left: 408px;}
-    .content-width{max-width: 50%; margin-left: 408px;}
+    .intro-text{margin-bottom: 180px;max-width: 54%; }
+    .content-width{max-width: 50%;}
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
-    .quote-width{max-width: 42%; margin-left: 568px;}
+    .quote-width{max-width: 42%;}
 
     
     :root {
@@ -185,6 +188,7 @@ h1{
     font-size: var(--h1);
     font-weight: 400;
     line-height: var(--h1-line-height);
+    width: 100%;
 }
 h2{
     font-family: IBM Plex Mono;
@@ -236,4 +240,5 @@ em{
 } 
 .right-allign{
     text-align: right;
+    width:100%;
 } 
