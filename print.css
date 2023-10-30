@@ -7,6 +7,7 @@
     nav, footer {display: none;}
     .footer-line { font-size: 10px;}
     .quote-position {gap: 2mm; margin-left: 8%}
+    .article-info{line-height: 20px;}
     :root {
 		--h2: 18px;
         --h2-line-height:24px;

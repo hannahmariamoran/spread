@@ -166,14 +166,18 @@ blockquote{
     margin-bottom: 64px;
 }
 
+.article-info{
+    line-height: 30px;
+}
+
 /* desktop media query */
 @media (min-width: 560px) {
     section{margin-bottom: 196px; margin-left: 40px; margin-right: 40px;}
     header{ margin-bottom:48px; margin-left: 40px; margin-right: 40px;}
     /*li {padding-left: 12px;}*/
     a:hover {font-weight: 600;} 
-    .intro-text{margin-bottom: 180px; max-width: 55vw; margin-left: 40px; margin-right: 40px;}
-    article{margin-bottom: 196px; max-width: 45vw; margin-left: 40px; margin-right: 40px; margin-left: 32vw;}
+    .intro-text{margin-bottom: 180px; max-width: 55vw; margin-left: 32vw; margin-right: 40px;}
+    article{margin-bottom: 196px; max-width: 45vw; margin-right: 40px; margin-left: 32vw;}
     .expression-allign{text-align: left;}
     li{padding-left: 12px;} 
     .footer-line {margin-left: 40px; margin-right: 40px; margin-bottom: 40px;}
