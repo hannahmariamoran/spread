@@ -44,17 +44,18 @@ nav{
 
 }
 
-
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: right;
 }
+
 li{
     float: left;
     padding-left: 8px;
 } 
+
 footer{
     font-family: IBM Plex Mono;
     font-size: var(--footer);
@@ -63,7 +64,6 @@ footer{
     color: #8F00FF;
     display:flex;
     top: 92%;
-   
 }
 
 
@@ -81,11 +81,6 @@ a:visited{
 
 .intro-text{
     margin-bottom: 104px;
-    max-width: 100%;
-}
-
-.content-width{
-    max-width:100%;
 }
 
 article{
@@ -95,10 +90,6 @@ article{
 
 .expression-allign{
     text-align: right;
-}
-
-.quote-width{
-    max-width: 80%;
 }
 
 
@@ -145,11 +136,9 @@ article{
     /*li {padding-left: 12px;}*/
     a:hover {font-weight: 600;} 
     .heading-width{max-width:46%;}
-    .intro-text{margin-bottom: 180px;max-width: 54%; }
-    .content-width{max-width: 50%;}
+    .intro-text{margin-bottom: 180px;}
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
-    .quote-width{max-width: 42%;}
     body {margin: 40px;}
     li{padding-left: 12px;} 
 
