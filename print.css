@@ -3,9 +3,10 @@
     header{margin: none;}
     .intro-text{margin: none;}
     article{width: 50%;}
-    blockquote{width: 80%; margin-left: 20%; margin-top: 40px; margin-bottom: 40px;}
+    blockquote{margin-top: 40px; margin-bottom: 40px;}
     nav, footer {display: none;}
     .footer-line { font-size: 10px;}
+    .quote-position {gap: 2mm; margin-left: 8%}
     :root {
 		--h2: 18px;
         --h2-line-height:24px;
