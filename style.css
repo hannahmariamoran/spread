@@ -120,7 +120,7 @@ article{
 }
 :root {
     --h2: 40px;
-    --h2-line-height:48px;
+    --h2-line-height:46px;
 }
 :root {
     --h3: 34px;
@@ -147,6 +147,17 @@ article{
     --footer:20px;
 }
 
+blockquote{
+    font-family: IBM Plex Mono;
+    font-size: var(--blockquote);
+    font-weight: 400;
+    line-height: var(--blockquote-line-height);
+    display: flex;
+    gap: 6px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
 /* desktop media query */
 @media (min-width: 560px) {
     section{margin-bottom: 196px; margin-left: 40px; margin-right: 40px;}
@@ -154,7 +165,7 @@ article{
     /*li {padding-left: 12px;}*/
     a:hover {font-weight: 600;} 
     .intro-text{margin-bottom: 180px; max-width: 55vw; margin-left: 40px; margin-right: 40px;}
-    article{margin-bottom: 196px; max-width: 45vw; margin-left: 40px; margin-right: 40px;}
+    article{margin-bottom: 196px; max-width: 45vw; margin-left: 40px; margin-right: 40px; margin-left: 32vw;}
     .expression-allign{text-align: left;}
     li{padding-left: 12px;} 
     .credit-line {margin-left: 40px; margin-right: 40px; margin-bottom: 40px;}
@@ -165,8 +176,8 @@ article{
         --h1-line-height:180px;
     }
     :root {
-		--h2: 64px;
-        --h2-line-height: 70px;
+		--h2: 54px;
+        --h2-line-height: 60px;
     
 	}
     :root {
@@ -214,6 +225,10 @@ article{
 @media (min-width: 560px) and (max-width: 767px){
     article {max-width: 80vw;}
     .intro-text{max-width: 90vw;}
+    :root {
+        --h2: 46px;
+        --h2-line-height:52px;
+    }
 }
 
 /* text styles */
@@ -242,16 +257,6 @@ h4{
     font-weight: 400;
     line-height: var(--h4-line-height);
 
-}
-blockquote{
-    font-family: IBM Plex Mono;
-    font-size: var(--blockquote);
-    font-weight: 400;
-    line-height: var(--blockquote-line-height);
-    display: flex;
-    gap: 6px;
-    margin-top: 64px;
-    margin-bottom: 64px;
 }
 p{
     font-size: var(--p);
