@@ -239,7 +239,7 @@ p{
     font-size: var(--p);
     font-weight: 400;
     line-height: var(--p-line-height); 
-    max-width: var(--content-width);
+    margin-bottom: 24px;
 } 
 b{
     color:  var(--brand-color-1);
