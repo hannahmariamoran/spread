@@ -14,7 +14,7 @@ body {
     color: #1C1B1F;
     display: flex; 
     flex-wrap: wrap;
-    margin: 40px
+    margin: 16px
 }
 
 section{
@@ -150,6 +150,8 @@ article{
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
     .quote-width{max-width: 42%;}
+    body {margin: 40px;}
+    li{padding-left: 12px;} 
 
     
     :root {
