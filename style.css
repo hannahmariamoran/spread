@@ -23,12 +23,15 @@ body {
 }
 
 section{
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 180px;
 }
 
 header{ 
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom:100px;
-  
 }
 
 /* nav styling */
@@ -45,7 +48,7 @@ nav{
     width: 100%; 
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 16px;
 
 }
 
@@ -85,11 +88,15 @@ a:visited{
 }
 
 .intro-text{
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 104px;
     width: 100vw;
 }
 
 article{
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 180px;
     max-width: 100vw;
 }
@@ -102,6 +109,8 @@ article{
     color: var(--brand-color-2);
     font-family: IBM Plex Mono;
     font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 } 
 
 /* text variables for all content */
@@ -112,7 +121,6 @@ article{
 :root {
     --h2: 40px;
     --h2-line-height:48px;
-
 }
 :root {
     --h3: 34px;
@@ -141,20 +149,21 @@ article{
 
 /* desktop media query */
 @media (min-width: 560px) {
-    section{margin-bottom: 196px;}
-    header{ margin-bottom:48px;}
+    section{margin-bottom: 196px; margin-left: 40px; margin-right: 40px;}
+    header{ margin-bottom:48px; margin-left: 40px; margin-right: 40px;}
     /*li {padding-left: 12px;}*/
     a:hover {font-weight: 600;} 
-    .intro-text{margin-bottom: 180px; max-width: 55vw;}
-    article{margin-bottom: 196px; max-width: 45vw;}
+    .intro-text{margin-bottom: 180px; max-width: 55vw; margin-left: 40px; margin-right: 40px;}
+    article{margin-bottom: 196px; max-width: 45vw; margin-left: 40px; margin-right: 40px;}
     .expression-allign{text-align: left;}
     li{padding-left: 12px;} 
+    .credit-line {margin-left: 40px; margin-right: 40px; margin-bottom: 40px;}
+    nav {padding: 40px;}
 
-    
     :root {
-		--h1: 180px;
-        --h1-line-height: 180px;
-	}
+        --h1: 180px;
+        --h1-line-height:180px;
+    }
     :root {
 		--h2: 64px;
         --h2-line-height: 70px;
@@ -208,13 +217,12 @@ article{
 }
 
 /* text styles */
-h1{
+/* h1{
     font-family: IBM Plex Mono;
     font-size: var(--h1);
-    line-height:var(--h1-line-height);
     font-weight: 400;
-
-}  
+    line-height: var(--h1-line-height);
+} */
 h2{
     font-family: IBM Plex Mono;
     font-size: var(--h2);
@@ -259,14 +267,14 @@ em{
     color: var(--brand-color-2);
 }
 
-.right-allign{
+/* .right-allign{
     text-align:right;
     position:static;
     display: flex;
     align-items:end;
     justify-content: flex-end;
     width: 100%;
-}
+} */
 
 #rightBottom {
     position: fixed;
