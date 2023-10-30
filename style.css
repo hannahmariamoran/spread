@@ -147,6 +147,10 @@ article{
     --footer:20px;
 }
 
+.footer-print{
+    opacity: 0;
+}
+
 blockquote{
     font-family: IBM Plex Mono;
     font-size: var(--blockquote);

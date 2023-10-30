@@ -1,5 +1,8 @@
 @media print {
     nav, footer  {display: none;}
+    .footer-print{
+        opacity: 100;
+    }
     :root {
 		--h2: 18px;
         --h2-line-height:24px;
