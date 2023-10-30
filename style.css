@@ -98,6 +98,12 @@ article{
     text-align: right;
 }
 
+.credit-line{
+    color: var(--brand-color-2);
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+} 
+
 /* text variables for all content */
 :root {
     --h1: 52px;
@@ -248,12 +254,9 @@ b{
     font-weight: 600;
 }
 em{
-    color: #1C1B1F;
+    color: var(--brand-color-2);
 }
-.credit-line{
-    color: #6E6D72;
-    
-} 
+
 .right-allign{
     text-align:right;
     position:static;
