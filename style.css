@@ -85,7 +85,6 @@ a:visited{
 
 article{
     margin-bottom: 180px;
-    max-width:100%;
 }
 
 .expression-allign{
@@ -135,7 +134,6 @@ article{
     header{ margin-bottom:48px;}
     /*li {padding-left: 12px;}*/
     a:hover {font-weight: 600;} 
-    .heading-width{max-width:46%;}
     .intro-text{margin-bottom: 180px;}
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
@@ -232,7 +230,6 @@ blockquote{
     font-weight: 400;
     line-height: var(--blockquote-line-height);
     display: flex;
-    justify-content: center;
     gap: 6px;
     margin-top: 64px;
     margin-bottom: 64px;
