@@ -151,12 +151,16 @@ article{
     --footer:20px;
 }
 
+.quote-position {
+    display: flex;
+    gap: 8px;
+}
+
 blockquote{
     font-family: IBM Plex Mono;
     font-size: var(--blockquote);
     font-weight: 400;
     line-height: var(--blockquote-line-height);
-    display: flex;
     gap: 6px;
     margin-top: 64px;
     margin-bottom: 64px;
@@ -174,6 +178,7 @@ blockquote{
     li{padding-left: 12px;} 
     .footer-line {margin-left: 40px; margin-right: 40px; margin-bottom: 40px;}
     nav {padding: 40px;}
+    .quote-position {gap: 12px; margin-left: 5vw}
 
     :root {
         --h1: 180px;
