@@ -1,4 +1,9 @@
 @media print {
+    section{margin: none;}
+    header{margin: none;}
+    .intro-text{margin: none;}
+    article{margin: none;}
+    nav {padding: 40px;}
     nav, footer {display: none;}
     .footer-line { font-size: 10px;}
     :root {
