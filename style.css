@@ -208,16 +208,13 @@ article{
 }
 
 /* text styles */
-/* h1{
+h1{
     font-family: IBM Plex Mono;
     font-size: var(--h1);
+    line-height:var(--h1-line-height);
     font-weight: 400;
-    line-height: var(--h1-line-height);
-    background-color: yellow;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-}  */
+
+}  
 h2{
     font-family: IBM Plex Mono;
     font-size: var(--h2);
