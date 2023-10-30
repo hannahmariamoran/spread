@@ -1,4 +1,8 @@
 @media print {
+    :root {
+    --brand-color-1:rgb(204, 209, 225);
+    --brand-color-2: #1C1B1F;
+}
     body {margin: 16px;}
     .intro-text{width: 50%; margin-left: 50%;}
     article{width: 50%; margin-left: 50%;}
