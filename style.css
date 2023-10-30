@@ -105,12 +105,13 @@ article{
     text-align: right;
 }
 
-.credit-line{
+.footer-line{
     color: var(--brand-color-2);
     font-family: IBM Plex Mono;
     font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 16px;
 } 
 
 /* text variables for all content */
@@ -147,10 +148,6 @@ article{
     --footer:20px;
 }
 
-.footer-print{
-    opacity: 0;
-}
-
 blockquote{
     font-family: IBM Plex Mono;
     font-size: var(--blockquote);
@@ -172,7 +169,7 @@ blockquote{
     article{margin-bottom: 196px; max-width: 45vw; margin-left: 40px; margin-right: 40px; margin-left: 32vw;}
     .expression-allign{text-align: left;}
     li{padding-left: 12px;} 
-    .credit-line {margin-left: 40px; margin-right: 40px; margin-bottom: 40px;}
+    .footer-line {margin-left: 40px; margin-right: 40px; margin-bottom: 40px;}
     nav {padding: 40px;}
 
     :root {
