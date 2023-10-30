@@ -172,12 +172,12 @@ article{
         --h4-line-height: 40px;
 	}
     :root {
-		--blockquote: 18px;
-        --blockquote-line-height: 24px;
+		--blockquote: 21px;
+        --blockquote-line-height: 27px;
 	}
     :root {
-        --p: 20px;
-        --p-line-height:26px;
+        --p: 21px;
+        --p-line-height:27px;
     }
     :root {
         --nav: 20px;
@@ -191,8 +191,18 @@ article{
         --footer: 20px;
         --footer:24px;
     }
+}
 
-
+/* tablet text media query */
+@media (min-width: 720px) {
+    :root {
+		--blockquote: 20px;
+        --blockquote-line-height: 26px;
+	}
+    :root {
+        --p: 20px;
+        --p-line-height:26px;
+    }
 }
 
 /* text styles */
