@@ -1,9 +1,9 @@
 @media print {
-    section{margin: none;}
-    header{margin: none;}
-    .intro-text{margin: none;}
-    article{width: 50%;}
+    body {margin: 16px;}
+    .intro-text{width: 50%; margin-left: 50%;}
+    article{width: 50%; margin-left: 50%;}
     blockquote{margin-top: 40px; margin-bottom: 40px;}
+    section {margin-left: 16px;}
     nav, footer {display: none;}
     .footer-line { font-size: 10px;}
     .quote-position {gap: 2mm; margin-left: 8%}
