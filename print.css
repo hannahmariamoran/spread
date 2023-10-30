@@ -1,0 +1,24 @@
+@media print {
+    nav, footer  {display: none;}
+    :root {
+		--h2: 18px;
+        --h2-line-height:24px;
+    
+	}
+    :root {
+		--h3: 64px;
+        --h3-line-height: 68px;
+	}
+    :root {
+		--h4: 12px;
+        --h4-line-height: 16px;
+	}
+    :root {
+		--blockquote: 12px;
+        --blockquote-line-height: 16px;
+	}
+    :root {
+        --p: 12px;
+        --p-line-height:16px;
+    }
+}
