@@ -211,7 +211,6 @@ h2{
     font-weight: 400;
     line-height: var(--h2-line-height);
     margin-bottom: 48px;
-    max-width: var(--content-width);
 }
 h3{
     font-family: IBM Plex Mono;
@@ -261,9 +260,6 @@ em{
     justify-content: flex-end;
     width: 100%;
 }
-
-
-
 
 #rightBottom {
     position: fixed;
