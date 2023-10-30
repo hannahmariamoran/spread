@@ -229,15 +229,20 @@ blockquote{
         --h2: 46px;
         --h2-line-height:52px;
     }
+    :root{
+        --h1: 98px;
+        --h1-line-height:104px;
+    }
 }
 
 /* text styles */
-/* h1{
+
+h1{
     font-family: IBM Plex Mono;
-    font-size: var(--h1);
     font-weight: 400;
     line-height: var(--h1-line-height);
-} */
+
+} 
 h2{
     font-family: IBM Plex Mono;
     font-size: var(--h2);
