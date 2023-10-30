@@ -18,7 +18,8 @@ body {
     color: var(--brand-color-2);
     display: flex; 
     flex-wrap: wrap;
-    margin: 16px
+    /* margin: 16px */
+    flex-direction: column
 }
 
 section{
@@ -139,7 +140,6 @@ article{
     .intro-text{margin-bottom: 180px;}
     article{margin-bottom: 196px;}
     .expression-allign{text-align: left;}
-    body {margin: 40px;}
     li{padding-left: 12px;} 
 
     
