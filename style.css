@@ -13,15 +13,13 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: IBM Plex Sans;
     color: var(--brand-color-2);
     display: flex; 
     flex-wrap: wrap;
     /* margin: 16px */
-    flex-direction: column;
-    width:100%;
+    flex-direction: column
 }
 
 section{
@@ -205,7 +203,7 @@ article{
 }
 
 /* text styles */
-/* h1{
+h1{
     font-family: IBM Plex Mono;
     font-size: var(--h1);
     font-weight: 400;
@@ -214,7 +212,7 @@ article{
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
-} */
+}
 h2{
     font-family: IBM Plex Mono;
     font-size: var(--h2);
