@@ -3,6 +3,7 @@
 html{
         scroll-behavior: smooth;
 }
+
 /* colour variables */
 :root {
     --brand-color-1:#8F00FF;
