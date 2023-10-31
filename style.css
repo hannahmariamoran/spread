@@ -185,7 +185,7 @@ blockquote{
     .quote-position {gap: 12px; margin-left: 5vw}
 
     :root {
-        --h1: 180px;
+        --h1: 12vw;
         --h1-line-height:180px;
     }
     :root {
@@ -254,8 +254,9 @@ h1{
     font-family: IBM Plex Mono;
     font-weight: 400;
     line-height: var(--h1-line-height);
-
+    font-size: var(--h1);
 } 
+    
 h2{
     font-family: IBM Plex Mono;
     font-size: var(--h2);
@@ -290,14 +291,14 @@ em{
     color: var(--brand-color-2);
 }
 
-/* .right-allign{
+.right-allign{
     text-align:right;
     position:static;
     display: flex;
     align-items:end;
     justify-content: flex-end;
     width: 100%;
-} */
+} 
 
 #rightBottom {
     position: fixed;
