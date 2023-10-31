@@ -5,13 +5,15 @@
 }
     body {margin: 16px;}
     .intro-text{width: 50%; margin-left: 50%;}
-    article{width: 50%; margin-left: 50%;}
+    article{ margin-left: 0;}
     blockquote{margin-top: 40px; margin-bottom: 40px;}
     section {margin-left: 16px;}
     nav, footer {display: none;}
     .footer-line { font-size: 10px; position: fixed; top: 95%; justify-content: center;}
     .quote-position {gap: 2mm; margin-left: 8%}
     .article-info{line-height: 20px;}
+    .print-layout {display: in}
+    /* .print-content {width: 50%;} */
     :root {
 		--h2: 18px;
         --h2-line-height:24px;
