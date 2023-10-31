@@ -12,7 +12,7 @@
     .footer-line { font-size: 10px; position: fixed; top: 95%; justify-content: center;}
     .quote-position {gap: 2mm; margin-left: 8%}
     .article-info{line-height: 20px;}
-    .print-layout {display: in}
+    /* .print-layout {display: in} */
     /* .print-content {width: 50%;} */
     :root {
 		--h2: 18px;
