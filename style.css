@@ -186,7 +186,7 @@ blockquote{
 
     :root {
         --h1: 12vw;
-        --h1-line-height:180px;
+        --h1-line-height: auto;
     }
     :root {
 		--h2: 54px;
@@ -238,13 +238,13 @@ blockquote{
 @media (min-width: 560px) and (max-width: 767px){
     article {max-width: 80vw;}
     .intro-text{max-width: 90vw;}
+    :root{
+        --h1: 98px;
+        --h1-line-height:auto;
+    }
     :root {
         --h2: 46px;
         --h2-line-height:52px;
-    }
-    :root{
-        --h1: 98px;
-        --h1-line-height:104px;
     }
 }
 
