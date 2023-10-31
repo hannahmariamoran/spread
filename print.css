@@ -5,28 +5,28 @@
     .grid-container {
     display: grid;
     grid-template-columns: 50vw 50vw;
-    gap: 24px;
+    gap: 16px;
     grid-template-rows: repeat (12, 8.33vh); 
     
     }
 
     /* Define the grid items */
     .grid-item-1 {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     grid-column: 1;
     grid-row: 3;
-    padding-left: 24px;
+    padding-left: 40px;
     }
     .grid-item-2 {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     grid-column: 2;
     grid-row: 5;
-    padding-right: 40px;
-  
-
-   
+    padding-right: 60px;
     }
     
+    .print-p-top{
+        margin-top: 60px;
+    }
     :root {
     --brand-color-1:rgb(204, 209, 225);
     --brand-color-2: #1C1B1F;}
@@ -36,10 +36,11 @@
     /* section {margin-left: 16px;} */
     blockquote{margin-top: 40px; margin-bottom: 40px;}
     nav, footer {display: none;}
-    .footer-line { font-size: 10px; position: fixed; top: 95%; justify-content: center;}
+    .footer-line { font-size: 12px; position: fixed; top: 95%; justify-content: center;}
     .quote-position {gap: 2mm; margin-left: 8%}
     .article-info{line-height: 20px;}
     h4 {font-family: IBM Plex Mono;}
+    .print-page-break {margin-top: 60px;}
     
      :root {
 		--h2: 32px;
