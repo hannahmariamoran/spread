@@ -15,13 +15,13 @@
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     grid-column: 1;
     grid-row: 3;
-    padding-left: 40px;
+    padding-left: 28px;
     }
     .grid-item-2 {
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     grid-column: 2;
     grid-row: 5;
-    padding-right: 60px;
+    padding-right: 44px;
     }
     
     .print-p-top{
