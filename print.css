@@ -6,7 +6,8 @@
     display: grid;
     grid-template-columns: 50vw 50vw;
     gap: 24px;
-    grid-template-rows: repeat (12, 1fr); 
+    grid-template-rows: repeat (12, 8.33vh); 
+    
     }
 
     /* Define the grid items */
@@ -20,6 +21,10 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     grid-column: 2;
     grid-row: 5;
+    padding-right: 40px;
+  
+
+   
     }
     
     :root {
@@ -34,26 +39,27 @@
     .footer-line { font-size: 10px; position: fixed; top: 95%; justify-content: center;}
     .quote-position {gap: 2mm; margin-left: 8%}
     .article-info{line-height: 20px;}
+    h4 {font-family: IBM Plex Mono;}
     
      :root {
-		--h2: 28px;
-        --h2-line-height:32px;
+		--h2: 32px;
+        --h2-line-height:40px;
 	}
     :root {
-		--h3: 64px;
+		--h3: 69px;
         --h3-line-height: 68px;
 	}
     :root {
-		--h4: 12px;
-        --h4-line-height: 16px;
+		--h4: 16px;
+        --h4-line-height: 24px;
 	}
     :root {
-		--blockquote: 12px;
-        --blockquote-line-height: 16px;
+		--blockquote: 14px;
+        --blockquote-line-height: 20px;
 	}
     :root {
-        --p: 12px;
-        --p-line-height:16px;
+        --p: 14px;
+        --p-line-height:20px;
     }
 
 }
