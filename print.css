@@ -15,8 +15,8 @@
     /* .print-layout {display: in} */
     /* .print-content {width: 50%;} */
     :root {
-		--h2: 18px;
-        --h2-line-height:24px;
+		--h2: 28px;
+        --h2-line-height:32px;
 	}
     :root {
 		--h3: 64px;
