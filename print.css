@@ -26,12 +26,17 @@
     
     .print-p-top{
         margin-top: 60px;
+    
+    }
+
+    .section-layout{
+        margin-top: 40px;
     }
     :root {
     --brand-color-1:rgb(204, 209, 225);
     --brand-color-2: #1C1B1F;}
     /* body {margin: 16px;} */
-    /* .intro-text{width: 50%; margin-left: 50%;} */
+    .intro-text{ margin-left: 30%; margin-top: 60px;}
     article{ margin-left: 0; background-color: blue; margin-right: 0;}
     /* section {margin-left: 16px;} */
     blockquote{margin-top: 40px; margin-bottom: 40px;}
@@ -42,13 +47,16 @@
     h4 {font-family: IBM Plex Mono;}
     .print-page-break {margin-top: 60px;}
     
-     :root {
+    :root {
+        --h1-line-height:110px;
+	}
+    :root {
 		--h2: 32px;
         --h2-line-height:40px;
 	}
     :root {
-		--h3: 69px;
-        --h3-line-height: 68px;
+		--h3: 80px;
+        --h3-line-height: 80px;
 	}
     :root {
 		--h4: 16px;
