@@ -1,10 +1,33 @@
 @media print {
+    article{ margin-left: 0; background-color: blue;}
+    
+    /* Define the grid container */
+    .grid-container {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    gap: 24px;
+    grid-template-rows: repeat (12, 1fr); 
+    }
+
+    /* Define the grid items */
+    .grid-item-1 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    grid-column: 1;
+    grid-row: 3;
+    padding-left: 24px;
+    }
+    .grid-item-2 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    grid-column: 2;
+    grid-row: 5;
+    }
+    
     :root {
     --brand-color-1:rgb(204, 209, 225);
     --brand-color-2: #1C1B1F;}
     /* body {margin: 16px;} */
     /* .intro-text{width: 50%; margin-left: 50%;} */
-    article{ margin-left: 0; background-color: blue;}
+    article{ margin-left: 0; background-color: blue; margin-right: 0;}
     /* section {margin-left: 16px;} */
     blockquote{margin-top: 40px; margin-bottom: 40px;}
     nav, footer {display: none;}
@@ -32,32 +55,6 @@
         --p: 12px;
         --p-line-height:16px;
     }
-
-
-/* Define the grid container */
-.grid-container {
-    margin: 24px;
-    display: grid;
-    grid-template-columns: 500px 500px;
-    gap: 16px;
-    grid-template-rows: repeat (12, 1fr); 
-
-}
-
-/* Define the grid items */
-.grid-item-1 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    grid-column: 1;
-    grid-row: 2;
-}
-.grid-item-2 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    grid-column: 2;
-    grid-row: 4;
-}
-
 
 }
 
